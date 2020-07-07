@@ -7,3 +7,4 @@ the proposed protocol outperforms some traditional routing
 schemes like epidemic routing and PRoPHET (Probabilistic
 Routing Protocol using History of Encounters and Transitivity)
 routing with more secure transmission.
+# Research Paper published in:
