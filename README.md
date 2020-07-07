@@ -1,5 +1,5 @@
 # Secure Epidemic Routing using Blockchain in Opportunistic Internet of Things Networks.
-This algorithm is a part of research on various techniques to secure adhoc decentralized networks.The
+This algorithm is a part of research on various techniques to secure adhoc decentralized networks primarily . The
 algorithm presents a secure routing protocol based on the
 delivery predictability of messages by integrating blockchain to
 ensure security and privacy. The simulation result shows that
