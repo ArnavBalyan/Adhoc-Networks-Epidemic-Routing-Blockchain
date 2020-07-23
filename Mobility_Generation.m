@@ -6,7 +6,6 @@ function s_mobility = Generate_Mobility(s_input)
     s_mobility.NB_NODES = s_input.NB_NODES;
     s_mobility.SIMULATION_TIME = s_input.SIMULATION_TIME;
     for nodeIndex_tmp = 1:s_mobility.NB_NODES
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%Initialize:
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME = [];
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_X = [];
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_Y = [];
@@ -31,12 +30,9 @@ function s_mobility = Generate_Mobility(s_input)
         previousY = unifrnd(s_input.V_POSITION_Y_INTERVAL(1),s_input.V_POSITION_Y_INTERVAL(2));
         previousDuration = 0;
         previousTime = 0;
-        Out_setRestrictedWalk_random_waypoint(previousX,previousY,previousDuration,previousTime,s_input);
-
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        %%Promenade     
+        Out_setRestrictedWalk_random_waypoint(previousX,previousY,previousDuration,previousTime,s_input);  
         while (s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME(end) < s_input.SIMULATION_TIME)
-            if (s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_IS_MOVING(end) == false)%Maintenant c'est le temps d'être mobile
+            if (s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_IS_MOVING(end) == false)%Maintenant c'est le temps d'Ãªtre mobile
                 previousX = s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_X(end);
                 previousY = s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_Y(end);
                 previousDuration = s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_DURATION(end);
@@ -64,8 +60,7 @@ function s_mobility = Generate_Mobility(s_input)
                          
             end
         end
-        %%%%%%%%%%%%%%%%%%To have speed vectors as well rather than
-        %%%%%%%%%%%%%%%%%%only the scalar value:
+
         nb_speed = length(s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_MAGNITUDE);
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_X = zeros(nb_speed,1);
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_Y = zeros(nb_speed,1);
@@ -76,7 +71,6 @@ function s_mobility = Generate_Mobility(s_input)
             s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_Y(s) = speed*sind(direction);
         end
 
-        %%%%%%%%%%%%%%%%%%To remove null pauses:
         v_index = s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_DURATION(1:end-1) == 0;
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME(v_index) = [];
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_X(v_index) = [];
@@ -88,8 +82,7 @@ function s_mobility = Generate_Mobility(s_input)
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_X(v_index) = [];
         s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_SPEED_Y(v_index) = [];
 
-        %%%%%%%%%%%%%%%%%%To remove the too small difference at the end, if
-        %%%%%%%%%%%%%%%%%%there is one:
+
         if ((s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME(end) - s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME(end-1)) < 1e-14)
             s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_TIME(end) = [];
             s_mobility_tmp.VS_NODE(nodeIndex_tmp).V_POSITION_X(end) = [];
