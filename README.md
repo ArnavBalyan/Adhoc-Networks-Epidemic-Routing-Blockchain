@@ -7,7 +7,7 @@ Traditional IoT uses several connected smart physical devices with an infrastruc
 with opportunistic network protocols using short-range communication technologies like zigbee, bluetooth, NFC (Near Field Communication), etc. Decentralized Opprtunistic Networks however, lack any infrastructure which compromises security and increases network vulnerabilities. This study proposed a blockchain based security solution which aims to secure OIoT Networks.
 ## Simulation Software:
 MATLAB-R2019a
-## Research Paper published in:
+# Research Paper published in:
 Springer Notes Data Engineering and Communications Technologies
-## Contact:
+# Contact:
 Contact [arnavbalyan1@gmail.com](mailto:arnavbalyan1@gmail.com) for more info.
