@@ -9,6 +9,6 @@ with opportunistic network protocols using short-range communication technologie
 MATLAB-R2019a
 # Research Paper published in:
 Springer Notes Data Engineering and Communications Technologies.
-[Reseaarch Gate](https://www.researchgate.net/publication/342095378_A_Secure_Epidemic_Routing_using_Blockchain_in_Opportunistic_Internet_of_Things)
+[Research Gate](https://www.researchgate.net/publication/342095378_A_Secure_Epidemic_Routing_using_Blockchain_in_Opportunistic_Internet_of_Things)
 # Contact:
 Contact [arnavbalyan1@gmail.com](mailto:arnavbalyan1@gmail.com) for more info.
