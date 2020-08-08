@@ -1,5 +1,5 @@
 # Secure Epidemic Routing using Blockchain in Opportunistic Internet of Things Networks.
-By [Arnav Balyan](https://github.com/ArnavBalyan), [Pushpinder Pal Singh](https://github.com/pushpinderpalsingh), [Devesh Sangwan](https://github.com/deveshsangwan), Poonam Rani, Vibha Jain and Jyoti Shokeen.
+By [Arnav Balyan](https://github.com/ArnavBalyan), Poonam Rani, [Pushpinder Pal Singh](https://github.com/pushpinderpalsingh), [Devesh Sangwan](https://github.com/deveshsangwan), Vibha Jain and Jyoti Shokeen.
 # Introduction:
 The paper presents state of the art security algorithm to provide immutable data transmission in Adhoc Decentralized Networks. The algorithm presents a secure routing protocol based on the delivery predictability of data packets, various consensus mechanisms and an immutable blockchain to provide security in data exchanges. The simulation result shows that the proposed protocol outperforms some traditional routing schemes like epidemic routing and PRoPHET (Probabilistic Routing Protocol using History of Encounters and Transitivity) routing with more secure transmission.
 ## About:
