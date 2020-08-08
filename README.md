@@ -7,6 +7,8 @@ Traditional IoT uses several connected smart physical devices with an infrastruc
 with opportunistic network protocols using short-range communication technologies like zigbee, bluetooth, NFC (Near Field Communication), etc. Decentralized Opprtunistic Networks however, lack any infrastructure which compromises security and increases network vulnerabilities. This study proposed a blockchain based security solution which aims to secure OIoT Networks.
 ## Simulation Software:
 MATLAB-R2019a
+## Delivery Rates:
+![img](https://github.com/ArnavBalyan/Adhoc-Networks-Epidemic-Routing-Blockchain/blob/master/results/figure2v.jpg)
 # Research Paper published in:
 Springer Notes Data Engineering and Communications Technologies.
 [Research Gate](https://www.researchgate.net/publication/342095378_A_Secure_Epidemic_Routing_using_Blockchain_in_Opportunistic_Internet_of_Things)
