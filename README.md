@@ -10,7 +10,6 @@ MATLAB-R2019a.
 ## Successful Delivery Rates:
 ![img](https://github.com/ArnavBalyan/Adhoc-Networks-Epidemic-Routing-Blockchain/blob/master/results/figure2v.jpg)
 # Research Paper published in:
-Springer Notes Data Engineering and Communications Technologies.(
-[Link to Research Gate](https://www.researchgate.net/publication/342095378_A_Secure_Epidemic_Routing_using_Blockchain_in_Opportunistic_Internet_of_Things)).
+Springer Notes Data Engineering and Communications Technologies.([Link to Research Gate](https://www.researchgate.net/publication/342095378_A_Secure_Epidemic_Routing_using_Blockchain_in_Opportunistic_Internet_of_Things)).
 # Contact:
 Contact [arnavbalyan1@gmail.com](mailto:arnavbalyan1@gmail.com) for more info.
