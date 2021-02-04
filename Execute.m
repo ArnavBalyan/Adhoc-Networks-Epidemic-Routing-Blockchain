@@ -26,7 +26,6 @@ disp('Please wait, processing data');
 %
 %
 %
-% Contact arnavbalyan1@gmail.com for the complete code with fulll implementation of blockchain.
 %
 %
 %
